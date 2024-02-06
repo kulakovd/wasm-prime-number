@@ -1,13 +1,5 @@
-Build npm package
+Build npm package. And link it to the frontend project.
 
 ```sh
-chmod +x build-npm-pkg.sh
-./build-npm-pkg.sh
-```
-
-Use yarn to link the package to the frontend project
-
-```sh
-cd pkg
-yarn link
+make
 ```
